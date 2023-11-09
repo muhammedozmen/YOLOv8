@@ -1,0 +1,14 @@
+names:
+- green
+- red
+- yellow
+nc: 3
+roboflow:
+  license: CC BY 4.0
+  project: traffic-light-detection-0ocf2
+  url: https://universe.roboflow.com/yolov8-aptna/traffic-light-detection-0ocf2/dataset/1
+  version: 1
+  workspace: yolov8-aptna
+test: ../test/images
+train: Traffic-Light-Detection-1/train/images
+val: Traffic-Light-Detection-1/valid/images
